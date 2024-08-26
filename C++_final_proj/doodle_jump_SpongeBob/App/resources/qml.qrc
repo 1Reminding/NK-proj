@@ -1,7 +1,0 @@
-<RCC>
-    <qresource prefix="/">
-        <file>main.qml</file>
-        <file>shaders/noisy.fsh</file>
-        <file>shaders/noisy.vsh</file>
-    </qresource>
-</RCC>
