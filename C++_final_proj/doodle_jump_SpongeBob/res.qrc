@@ -1,0 +1,93 @@
+<RCC>
+    <qresource prefix="/icon">
+        <file>resource/icon.ico</file>
+    </qresource>
+    <qresource prefix="/player">
+        <file>images/player_L.png</file>
+        <file>images/player_Left_Jump.png</file>
+        <file>images/player_Mouth.png</file>
+        <file>images/player_Right.png</file>
+        <file>images/player_Right_Jump.png</file>
+        <file>images/player_Shoot.png</file>
+        <file>images/player_Shoot_Jump.png</file>
+        <file>images/star1.png</file>
+        <file>images/star2.png</file>
+        <file>images/star3.png</file>
+    </qresource>
+    <qresource prefix="/platform">
+        <file>images/Cracked_Platform1.png</file>
+        <file>images/Cracked_Platform2.png</file>
+        <file>images/Cracked_Platform3.png</file>
+        <file>images/Cracked_Platform4.png</file>
+        <file>images/Horiziontal_Move_Platform.png</file>
+        <file>images/Normal_Platform.png</file>
+        <file>images/One-off_Platform1.png</file>
+    </qresource>
+    <qresource prefix="/background">
+        <file>images/background.png</file>
+        <file>images/pause.png</file>
+        <file>images/toolbar.png</file>
+        <file>images/welcome.png</file>
+        <file>images/end.png</file>
+        <file>images/endBar.png</file>
+        <file>images/tapToChange.png</file>
+        <file>images/line.png</file>
+        <file>images/option_bar.png</file>
+        <file>images/sounds.png</file>
+        <file>images/bar.png</file>
+        <file>images/scoreboard.png</file>
+    </qresource>
+    <qresource prefix="/button">
+        <file>images/play_button.png</file>
+        <file>images/play_button_clicked.png</file>
+        <file>images/pauseButton.png</file>
+        <file>images/resumeButton.png</file>
+        <file>images/resumeButton_clicked.png</file>
+        <file>images/menuButton.png</file>
+        <file>images/menuButton_clicked.png</file>
+        <file>images/playAgainButton.png</file>
+        <file>images/playAgainButton_clicked.png</file>
+        <file>images/off.png</file>
+        <file>images/option.png</file>
+        <file>images/option_clicked.png</file>
+        <file>images/on.png</file>
+        <file>images/local.png</file>
+        <file>images/local_selected.png</file>
+        <file>images/score_button.png</file>
+        <file>images/score_button_clicked.png</file>
+    </qresource>
+    <qresource prefix="/font">
+        <file>resource/DoodleJump.ttf</file>
+    </qresource>
+    <qresource prefix="/bullet">
+        <file>images/bullet.png</file>
+    </qresource>
+    <qresource prefix="/props">
+        <file>images/propellerHelmet.png</file>
+        <file>images/propellerHelmet1.png</file>
+        <file>images/propellerHelmet2.png</file>
+        <file>images/propellerHelmet3.png</file>
+        <file>images/spring.png</file>
+        <file>images/spring_stretch.png</file>
+    </qresource>
+    <qresource prefix="/hazard">
+        <file>images/monster1.png</file>
+        <file>images/monster2.png</file>
+        <file>images/monster3.png</file>
+        <file>images/monster4_1.png</file>
+        <file>images/monster4_2.png</file>
+        <file>images/monster4_3.png</file>
+        <file>images/hole.png</file>
+    </qresource>
+    <qresource prefix="/sound">
+        <file>resource/bullet.mp3</file>
+        <file>resource/cracked_platform.mp3</file>
+        <file>resource/end.mp3</file>
+        <file>resource/PropellerHelmet.mp3</file>
+        <file>resource/spring.mp3</file>
+        <file>resource/jump.mp3</file>
+        <file>resource/Hole.mp3</file>
+        <file>resource/Monstercollide.mp3</file>
+        <file>resource/monsterhit.mp3</file>
+    </qresource>
+</RCC>
