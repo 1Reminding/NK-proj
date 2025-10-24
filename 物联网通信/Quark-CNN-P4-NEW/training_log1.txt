@@ -1,0 +1,2 @@
+Epoch,TrainLoss,ValAcc
+1,0.065526,100.00

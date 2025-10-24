@@ -1,0 +1,35 @@
+# -- 卷积层权重导出 --
+p4.pipea.SwitchIngress_a.weight_tbl.add_with_weight_act(level=1, channel_index=1, w1=123, w2=-31, w3=82, w4=0)
+p4.pipea.SwitchIngress_a.weight_tbl.add_with_weight_act(level=1, channel_index=2, w1=-51, w2=20, w3=10, w4=0)
+p4.pipea.SwitchIngress_a.weight_tbl.add_with_weight_act(level=1, channel_index=3, w1=72, w2=-10, w3=51, w4=0)
+p4.pipea.SwitchIngress_a.weight_tbl.add_with_weight_act(level=1, channel_index=4, w1=0, w2=0, w3=-41, w4=0)
+
+p4.pipea.SwitchIngress_a.weight_tbl.add_with_weight_act(level=2, channel_index=1, w1=31, w2=61, w3=-20, w4=0)
+p4.pipea.SwitchIngress_a.weight_tbl.add_with_weight_act(level=2, channel_index=2, w1=-10, w2=20, w3=31, w4=0)
+p4.pipea.SwitchIngress_a.weight_tbl.add_with_weight_act(level=2, channel_index=3, w1=51, w2=-41, w3=-10, w4=0)
+p4.pipea.SwitchIngress_a.weight_tbl.add_with_weight_act(level=2, channel_index=4, w1=61, w2=20, w3=0, w4=0)
+
+p4.pipea.SwitchIngress_a.weight_tbl.add_with_weight_act(level=3, channel_index=1, w1=10, w2=-10, w3=20, w4=0)
+p4.pipea.SwitchIngress_a.weight_tbl.add_with_weight_act(level=3, channel_index=2, w1=0, w2=10, w3=-10, w4=0)
+p4.pipea.SwitchIngress_a.weight_tbl.add_with_weight_act(level=3, channel_index=3, w1=20, w2=-31, w3=41, w4=0)
+p4.pipea.SwitchIngress_a.weight_tbl.add_with_weight_act(level=3, channel_index=4, w1=31, w2=0, w3=-20, w4=0)
+
+# -- FC 偏置导出 (quanti_tbl_l4/l5) --
+p4.pipea.SwitchIngress_a.bias_tbl.add_with_bias_act(level=4, channel_index=1, w1=123)
+p4.pipea.SwitchIngress_a.bias_tbl.add_with_bias_act(level=4, channel_index=2, w1=-61)
+p4.pipea.SwitchIngress_a.bias_tbl.add_with_bias_act(level=4, channel_index=3, w1=41)
+p4.pipea.SwitchIngress_a.bias_tbl.add_with_bias_act(level=4, channel_index=4, w1=-31)
+
+p4.pipea.SwitchIngress_a.bias_tbl.add_with_bias_act(level=5, channel_index=1, w1=-20)
+p4.pipea.SwitchIngress_a.bias_tbl.add_with_bias_act(level=5, channel_index=2, w1=51)
+
+bias_l41 = 0.5123
+bias_l42 = -0.3921
+bias_l43 = 0.1287
+bias_l44 = 0.2678
+
+bias_l51 = -0.2214
+bias_l52 = 0.3915
+
+M_1 = 1024  # 卷积层量化因子
+M_4 = 1024  # FC层量化因子（fc1, fc2）
